@@ -270,7 +270,7 @@ body {
 .flex-end:hover {
   border: 1px solid white;
   box-shadow: 3rem 3rem 3rem 0 rgba(0, 0, 0, 0.05);
-  transform: translateY(-10%);
+  transform: translateY(-5%);
 }
 
 .plan-month {
@@ -323,7 +323,7 @@ body {
 .plan-savings-box:hover {
   border: 1px solid white;
   box-shadow: 3rem 3rem 3rem 0 rgba(0, 0, 0, 0.05);
-  transform: translateY(-10%);
+  transform: translateY(-5%);
 }
 
 .plan-save-text {
@@ -334,3 +334,29 @@ body {
   padding: 1.6rem 0;
   border-collapse: collapse;
 }
+
+/**********************************************/
+/********** Featured in Section **********/
+/*********************************************/
+
+.featured-container {
+  display: flex;
+  gap: 12.8rem;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.featured-text {
+  font-size: 2rem;
+  text-align: center;
+  font-weight: 100;
+  margin-bottom: 3rem;
+}
+
+.featured-img {
+  height: 3.2rem;
+}
+
+/**********************************************/
+/********** CTA/Form Section **********/
+/*********************************************/
