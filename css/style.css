@@ -69,6 +69,10 @@ body {
   grid-template-columns: repeat(3, 1fr);
 }
 
+.border-black {
+  border: 1px solid black;
+}
+
 /**********************************************/
 /********** HEADER **********/
 /*********************************************/
@@ -220,13 +224,16 @@ body {
 /********** Plan Section **********/
 /*********************************************/
 
-.section-plan {
-  background-color: #fbede7;
+.section-plan .container {
+  border-top: 0.5px solid rgb(187, 186, 186);
 }
 
 .plan-container {
-  column-gap: 2.4rem;
+  display: flex;
+
+  gap: 5.2rem;
 }
+
 .plan-heading {
   color: #2b0e03;
   text-transform: uppercase;
@@ -252,7 +259,15 @@ body {
 
 .plan-box {
   background-color: #fff;
-  border: 1px solid black;
+  padding-bottom: 3rem;
+}
+
+.plan-box-saving {
+  /* padding-top: 9.4rem; */
+}
+
+.flex-end {
+  align-self: flex-end;
 }
 
 .plan-month {
@@ -295,8 +310,15 @@ body {
   background-color: #1864ab;
 }
 
+.plan-savings-box {
+  display: flex;
+  flex-direction: column;
+}
 .plan-save-text {
   color: #fff;
   text-align: center;
-  font-size: 1.6;
+  font-size: 1.6rem;
+  font-weight: 500;
+  padding: 1.6rem 0;
+  border-collapse: collapse;
 }
