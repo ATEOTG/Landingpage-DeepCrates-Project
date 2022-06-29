@@ -231,8 +231,6 @@ body {
 }
 
 .plan-heading {
-  color: #2b0e03;
-  text-transform: uppercase;
   padding-top: 4.4rem;
   margin-bottom: 8.6rem;
   letter-spacing: -0.5px;
@@ -271,7 +269,8 @@ body {
 }
 .flex-end:hover {
   border: 1px solid white;
-  box-shadow: 2.4rem 2.4rem 3rem 0 rgba(0, 0, 0, 0.05);
+  box-shadow: 3rem 3rem 3rem 0 rgba(0, 0, 0, 0.05);
+  transform: translateY(-10%);
 }
 
 .plan-month {
@@ -323,7 +322,8 @@ body {
 }
 .plan-savings-box:hover {
   border: 1px solid white;
-  box-shadow: 2.4rem 2.4rem 3rem 0 rgba(0, 0, 0, 0.05);
+  box-shadow: 3rem 3rem 3rem 0 rgba(0, 0, 0, 0.05);
+  transform: translateY(-10%);
 }
 
 .plan-save-text {
