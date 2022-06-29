@@ -18,6 +18,11 @@ Accent: #1864ab
   box-sizing: border-box;
 }
 
+*:focus {
+  outline: none;
+  box-shadow: 0 0 0 0.8rem rgba(236, 164, 135, 0.534);
+}
+
 html {
   font-size: 62.5%;
 }
@@ -350,7 +355,7 @@ body {
   font-size: 2rem;
   text-align: center;
   font-weight: 100;
-  margin-bottom: 3rem;
+  margin-bottom: 5rem;
 }
 
 .featured-img {
@@ -360,3 +365,85 @@ body {
 /**********************************************/
 /********** CTA/Form Section **********/
 /*********************************************/
+
+.section-form {
+  background-color: #d9480f;
+  padding-bottom: 4.4rem;
+}
+
+.form-heading {
+  text-align: center;
+  color: #fff;
+  font-size: 4.4rem;
+  font-weight: 600;
+  padding-top: 4.4rem;
+  margin-bottom: 3.6rem;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  color: #fff;
+}
+
+.name-container {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+
+.name-container label {
+  text-align: center;
+  font-size: 2.4rem;
+  font-weight: 500;
+}
+
+.name-container input {
+  padding: 1rem 1rem;
+  width: 21.7rem;
+}
+
+.name-container input::placeholder {
+  font-size: 1.6rem;
+}
+
+.email-container {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+  margin-bottom: 3.6rem;
+}
+
+.email-container label {
+  text-align: center;
+  font-size: 2.4rem;
+  font-weight: 500;
+  letter-spacing: 2px;
+}
+
+.email-container input {
+  padding: 1rem 1rem;
+  width: 21.7rem;
+}
+
+.email-container input::placeholder {
+  font-size: 1.6rem;
+}
+
+.btn {
+  padding: 1.4rem 5.9rem;
+  background-color: #e8590c;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  font-size: 1.8rem;
+  font-weight: 700;
+
+  transition: all 0.3s;
+}
+
+.btn:hover {
+  background-color: #e47f57;
+}
