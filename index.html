@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="DeepCrate is a book delivery subscription service that delivers a crate containing six classic fiction books every month of the year."
+    />
+
+    <link rel="icon" href="/img/open-book.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+
+    <title>DeepCrate</title>
+  </head>
+  <body>
+    <main class="main">
+      <header class="header-nav">
+        <!-- This is the navigation at the top of the site -->
+        <nav class="nav">
+          <div class="brand-name">
+            <ion-icon name="book" class="icon-book"></ion-icon>
+            <span>Deepcrate </span>
+          </div>
+          <ul class="nav-links">
+            <li class="nav-link"><a href="#"> Section 1</a></li>
+            <li class="nav-link"><a href="#"> Section 2</a></li>
+            <li class="nav-link"><a href="#"> Section 3</a></li>
+            <li class="nav-link"><a href="#"> Section 4</a></li>
+          </ul>
+        </nav>
+      </header>
+      <section class="section-header">
+        <div class="heading">
+          <div class="margin--bottom-sm">
+            <h1 class="heading-primary">They are classics for a reason</h1>
+            <p class="subheading">
+              for classic fiction lovers all around the globe
+            </p>
+          </div>
+          <p class="heading-p">
+            A box containing three beloved classic fiction books
+            <span class="underline">delivered</span>
+            every month directly to your door.
+          </p>
+          <a class="heading-btn" href="#">Sign up now</a>
+        </div>
+      </section>
+
+      <!-- This is the section that is going to show the steps of the DeepCrate process  -->
+      <section class="container section-step">
+        <h2 class="heading-secondary margin--bottom-md">
+          Classics Delivered to You
+        </h2>
+        <div class="grid grid--2-cols">
+          <!-- Image on one side, while the text is on the other side. a Z pattern -->
+          <img
+            src="img/man-subscribing.jpg"
+            alt="man using computer"
+            class="step-img"
+          />
+          <div class="step-text">
+            <p class="step-number">Step 1</p>
+            <p class="step-heading underline">Choose a Subscription plan</p>
+            <p class="step-description">
+              Choose the 1 month, 3 month, or 6 month subscription plan. You can
+              cancel at anytime!
+            </p>
+          </div>
+
+          <div class="step-text">
+            <p class="step-number">Step 2</p>
+            <p class="step-heading underline">Package gets delivered</p>
+            <p class="step-description">
+              Our DeepCrate package containing 3 classic books gets delivered to
+              you.
+            </p>
+          </div>
+          <img
+            src="img/package.jpg"
+            alt="package being delivered to customer"
+            class="step-img"
+          />
+
+          <img
+            src="img/woman-reading.jpg"
+            alt="man using computer"
+            class="step-img"
+          />
+          <div class="step-text">
+            <p class="step-number">Step 3</p>
+            <p class="step-heading underline">Enjoy the classics!</p>
+            <p class="step-description">
+              Expand your mind by reading the timeless books personally curated
+              by us.
+            </p>
+          </div>
+        </div>
+      </section>
+      <!-- This is the section that is going to show the subscription plans -->
+      <section class="section-plan">
+        <div class="container">
+          <h2 class="heading-secondary plan-heading">Select your plan</h2>
+          <div class="plan-container grid grid--3-cols">
+            <div class="plan-box">
+              <div class="plan-price">
+                <p class="plan-month">Monthly</p>
+                <p class="plan-dollar underline">$32.99</p>
+              </div>
+              <img
+                class="plan-img"
+                src="/img/book-1.jpg"
+                alt="Pride and prejudice by Jane Austen novel"
+              />
+              <div class="plan-bottom">
+                <p class="plan-charge-month">*Charged Every Month</p>
+                <a href="#" class="plan-button">SELECT</a>
+              </div>
+            </div>
+            <div class="plan-box">
+              <div class="plan-savings">
+                <p class="plan-save-text">You save $3.00!</p>
+              </div>
+              <div class="plan-price">
+                <p class="plan-month">3 Month prepay</p>
+                <p class="plan-dollar underline">$95.97</p>
+              </div>
+              <img
+                class="plan-img"
+                src="/img/book-2.jpg"
+                alt="The Illiad and The Odyssey by Homer book"
+              />
+              <div class="plan-bottom">
+                <p class="plan-charge-month">*Charged Every 3 Months</p>
+                <a href="#" class="plan-button">SELECT</a>
+              </div>
+            </div>
+            <div class="plan-box">
+              <div class="plan-savings">
+                <p class="plan-save-text">You save $12.00!</p>
+              </div>
+              <div class="plan-price">
+                <p class="plan-month">6 Month prepay</p>
+                <p class="plan-dollar underline">$185.94</p>
+              </div>
+              <img
+                class="plan-img"
+                src="/img/book-3.jpg"
+                alt="Pride and prejudice novel"
+              />
+              <div class="plan-bottom">
+                <p class="plan-charge-month">*Charged Every 6 Months</p>
+                <a href="#" class="plan-button">SELECT</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- This is the section that is going to show who has endored or used the subscription service -->
+      <section class="section-featured"></section>
+      <!-- This is the section that is going to allow the user to fill in their data to sign up for the subscription service -->
+      <section class="section-form"></section>
+    </main>
+    <!-- This is the footer of the site -->
+    <footer class="footer"></footer>
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>

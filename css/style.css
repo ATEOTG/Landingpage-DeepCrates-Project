@@ -1,0 +1,302 @@
+/* 
+FONT SIZE SYSTEM (px)
+    10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+- SPACING SYSTEM (px)
+        2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+
+
+Colors:
+Main:#d9480f
+Secondary:#555,#777, #444, #333
+Tint:#fbede7
+Accent: #1864ab
+*/
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  line-height: 1;
+  color: #555;
+}
+
+.container {
+  max-width: 120rem;
+  margin: 0 auto;
+  padding: 0 3.2rem;
+}
+
+.underline {
+  text-decoration: underline;
+  text-decoration-color: #e8590c;
+  text-decoration-thickness: 3px;
+}
+.margin--bottom-sm {
+  margin-bottom: 1.4rem;
+}
+.margin--bottom-md {
+  margin-bottom: 6.2rem;
+}
+
+.heading-primary {
+  font-size: 5.2rem;
+  font-weight: 700;
+}
+
+.heading-secondary {
+  font-size: 4.4rem;
+  font-weight: 600;
+  color: #333;
+}
+
+.grid {
+  display: grid;
+}
+
+.grid--2-cols {
+  grid-template-columns: repeat(2, 1fr);
+}
+.grid--3-cols {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+/**********************************************/
+/********** HEADER **********/
+/*********************************************/
+.nav {
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.8rem;
+  padding: 1.6rem 1.6rem 1.6rem 1.6rem;
+}
+.nav span {
+  color: #d9480f;
+  font-weight: 500;
+  font-size: 2rem;
+}
+
+.nav-links {
+  display: flex;
+  gap: 1.6rem;
+  list-style: none;
+}
+
+.nav-links a:link,
+.nav-links a:visited {
+  text-decoration: none;
+  color: #555;
+}
+
+.nav-link {
+  text-decoration: none;
+}
+
+.brand-name {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.4rem;
+}
+
+.icon-book {
+  color: #d9480f;
+}
+.section-header {
+  position: relative;
+  background-image: linear-gradient(
+      rgba(24, 24, 24, 0.7),
+      rgba(24, 24, 24, 0.7)
+    ),
+    url("../img/library-filled.jpg");
+  background-size: cover;
+  align-items: center;
+  justify-items: center;
+
+  height: 75vh;
+  color: #fff;
+
+  margin-bottom: 8.6rem;
+}
+
+.subheading {
+  font-size: 2rem;
+}
+
+.heading {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.6rem;
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+
+  transform: translate(-50%, -50%);
+}
+
+.heading div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.heading-p {
+  font-size: 1.8rem;
+  margin-bottom: 1.6rem;
+}
+
+.heading-btn:link,
+.heading-btn:visited {
+  background-color: #d9480f;
+  color: #fff;
+  text-decoration: none;
+  font-size: 2.4rem;
+  font-weight: 600;
+
+  display: inline-block;
+  border-radius: 8px;
+
+  margin-top: 1.6rem;
+  padding: 1.6rem 3.2rem;
+
+  transition: all 0.3s;
+}
+.heading-btn:hover,
+.heading-btn:active {
+  background-color: #e8590c;
+}
+
+/**********************************************/
+/********** Step-by-Step Section **********/
+/*********************************************/
+
+.section-step {
+  margin-bottom: 8.6rem;
+}
+.section-step h2 {
+  text-align: center;
+  letter-spacing: -1px;
+}
+
+.step-img {
+  width: 100%;
+}
+
+.step-text {
+  align-self: center;
+  justify-self: center;
+  width: 75%;
+  /* text-align: center; */
+}
+
+.step-number {
+  font-size: 1.8rem;
+  margin-bottom: 2rem;
+}
+.step-heading {
+  color: #333;
+  font-size: 3rem;
+  font-weight: 600;
+  margin-bottom: 1.6rem;
+}
+.step-description {
+  font-size: 2rem;
+  font-weight: 500;
+  color: #444;
+  line-height: 1.7;
+}
+
+/**********************************************/
+/********** Plan Section **********/
+/*********************************************/
+
+.section-plan {
+  background-color: #fbede7;
+}
+
+.plan-container {
+  column-gap: 2.4rem;
+}
+.plan-heading {
+  color: #2b0e03;
+  text-transform: uppercase;
+  padding-top: 4.4rem;
+  margin-bottom: 4.4rem;
+}
+
+.plan-price {
+  text-align: center;
+  padding: 3.6rem 0 1.8rem 0;
+}
+
+.plan-bottom {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.plan-img {
+  width: 100%;
+  margin-bottom: 3rem;
+}
+
+.plan-box {
+  background-color: #fff;
+  border: 1px solid black;
+}
+
+.plan-month {
+  color: #444;
+  font-size: 1.8rem;
+  font-weight: 500;
+  padding-bottom: 1.6rem;
+}
+
+.plan-dollar {
+  color: #333;
+  font-size: 2.4rem;
+  font-weight: 600;
+}
+
+.plan-charge-month {
+  font-size: 1.6rem;
+  margin-bottom: 3.6rem;
+}
+
+.plan-button:link,
+.plan-button:visited {
+  display: inline-block;
+  background-color: #d9480f;
+  color: white;
+  text-decoration: none;
+  font-size: 2rem;
+  padding: 1rem 2.4rem;
+
+  border-radius: 8px;
+
+  transition: all 0.3s;
+}
+.plan-button:hover,
+.plan-button:active {
+  background-color: #e8590c;
+}
+
+.plan-savings {
+  background-color: #1864ab;
+}
+
+.plan-save-text {
+  color: #fff;
+  text-align: center;
+  font-size: 1.6;
+}
