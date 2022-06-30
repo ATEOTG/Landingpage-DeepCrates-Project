@@ -447,3 +447,56 @@ body {
 .btn:hover {
   background-color: #e47f57;
 }
+
+/**********************************************/
+/********** Footer Section **********/
+/*********************************************/
+
+.footer-lists {
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+  list-style: none;
+  font-size: 1.6rem;
+  font-weight: 500;
+}
+
+.footer-logo {
+  height: 20rem;
+}
+
+.footer {
+  grid-template-columns: 2fr 1fr 1fr 1fr;
+  align-items: center;
+  justify-content: center;
+}
+
+.brand-name-footer {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  margin-bottom: 2rem;
+}
+
+.brand-name-footer span {
+  color: #d9480f;
+  font-weight: 500;
+  font-size: 3rem;
+}
+
+.icon-book-footer {
+  color: #d9480f;
+  width: 3rem;
+  height: 3rem;
+}
+
+.icon-footer {
+  color: #d9480f;
+  width: 1.8rem;
+  height: 1.8rem;
+}
+
+.social-icons {
+  display: flex;
+  gap: 3.6rem;
+}
