@@ -105,6 +105,12 @@ body {
   text-decoration: none;
 }
 
+.nav-links .nav-cta:link,
+.nav-links .nav-cta:visited {
+  color: #d9480f;
+  font-weight: 600;
+}
+
 .brand-name {
   display: flex;
   align-items: center;
@@ -459,6 +465,7 @@ body {
   list-style: none;
   font-size: 1.6rem;
   font-weight: 500;
+  align-self: flex-start;
 }
 
 .footer-logo {
@@ -466,9 +473,10 @@ body {
 }
 
 .footer {
-  grid-template-columns: 2fr 1fr 1fr 1fr;
+  grid-template-columns: 2fr 1fr 1fr;
   align-items: center;
   justify-content: center;
+  gap: 8rem;
 }
 
 .brand-name-footer {
