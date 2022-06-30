@@ -1,0 +1,65 @@
+/* 1510px
+1510/16 = 94px
+*/
+@media (max-width: 103em) {
+  .heading-primary {
+    font-size: 4.2rem;
+  }
+  .subheading {
+    font-size: 1.6rem;
+  }
+
+  .heading-p {
+    font-size: 1.4rem;
+  }
+}
+
+/* 1280px */
+@media (max-width: 80em) {
+  /* 9px/16 */
+  html {
+    font-size: 56.2%;
+  }
+  .heading-p {
+    font-size: 1.2rem;
+  }
+}
+
+/* 1100px */
+@media (max-width: 69em) {
+  .heading {
+    width: 75%;
+  }
+  .heading-primary {
+    font-size: 3.6rem;
+  }
+  .heading-p {
+    font-weight: 500;
+    font-size: 1.4rem;
+  }
+}
+
+/*  900px*/
+@media (max-width: 56.5em) {
+  html {
+    font-size: 50%;
+  }
+}
+
+/* 800px */
+@media (max-width: 50em) {
+  .step-number {
+    font-size: 1.4rem;
+  }
+  .step-heading {
+    font-size: 2rem;
+  }
+
+  .step-description {
+    font-size: 1.6rem;
+  }
+
+  .featured-container {
+    gap: 5.8rem;
+  }
+}
