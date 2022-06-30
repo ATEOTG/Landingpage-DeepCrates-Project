@@ -48,11 +48,15 @@
 
 /* 800px */
 @media (max-width: 50em) {
+  .heading {
+    width: 91%;
+  }
+
   .step-number {
     font-size: 1.4rem;
   }
   .step-heading {
-    font-size: 2rem;
+    font-size: 1.8rem;
   }
 
   .step-description {
@@ -60,6 +64,69 @@
   }
 
   .featured-container {
-    gap: 5.8rem;
+    gap: 3.2rem;
+  }
+
+  .plan-container {
+    width: 100%;
+    gap: 2.2rem;
+  }
+
+  .section-plan .container {
+    padding: 0 1rem;
+  }
+}
+
+/* 560px */
+@media (max-width: 35em) {
+  .grid--2-cols {
+    grid-template-columns: 1fr;
+  }
+
+  .plan-container {
+    flex-direction: column;
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .plan-heading {
+    text-align: center;
+  }
+
+  .plan-savings-box:hover {
+    transform: translateY(0);
+  }
+
+  .flex-end:hover {
+    transform: translateY(0);
+  }
+
+  .featured-text {
+    margin-bottom: 4rem;
+  }
+
+  .featured-container {
+    flex-direction: column;
+    gap: 3.4rem;
+  }
+
+  .form-heading {
+    font-size: 3.6rem;
+  }
+  .footer-lists {
+    font-size: 1.4rem;
+  }
+
+  .icon-book-footer {
+    width: 2rem;
+    height: 2rem;
+  }
+  .brand-name-footer span {
+    font-size: 2.4rem;
+  }
+
+  .icon-footer {
+    width: 1.4rem;
+    height: 1.4rem;
   }
 }
