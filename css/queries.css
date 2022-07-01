@@ -79,6 +79,14 @@
 
 /* 560px */
 @media (max-width: 35em) {
+  .heading-primary {
+    font-size: 4.2rem;
+  }
+
+  .subheading {
+    font-size: 2rem;
+  }
+
   .grid--2-cols {
     grid-template-columns: 1fr;
   }
