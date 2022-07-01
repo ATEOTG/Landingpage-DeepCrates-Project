@@ -77,11 +77,17 @@ body {
 /**********************************************/
 /********** HEADER **********/
 /*********************************************/
+.header {
+  position: relative;
+  z-index: 1;
+}
+
 .nav {
   display: flex;
   justify-content: space-between;
   font-size: 1.8rem;
-  padding: 1.6rem 1.6rem 1.6rem 1.6rem;
+  padding: 1.6rem;
+  width: 100%;
 }
 .nav span {
   color: #d9480f;
@@ -95,19 +101,39 @@ body {
   list-style: none;
 }
 
-.nav-links a:link,
-.nav-links a:visited {
-  text-decoration: none;
-  color: #555;
-}
-
 .nav-link {
   text-decoration: none;
+}
+
+/* adding sticky */
+.nav.sticky {
+  transition: all 0.5s ease;
+  padding: 2rem 1.6rem;
+  z-index: 999;
+  position: fixed;
+  background-color: rgba(255, 255, 255, 0.918);
+}
+
+.nav.sticky .nav-btn {
+  background-color: rgba(255, 255, 255, 0);
 }
 
 .nav-links .nav-cta:link,
 .nav-links .nav-cta:visited {
   color: #d9480f;
+  font-weight: 600;
+}
+
+.nav-btn {
+  font-size: 2rem;
+  font-weight: 400;
+  color: #555;
+  border: none;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+.nav-cta {
   font-weight: 600;
 }
 

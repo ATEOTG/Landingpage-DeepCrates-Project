@@ -20,45 +20,54 @@
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/queries.css" />
 
+    <script defer src="script.js"></script>
+
     <title>DeepCrate</title>
   </head>
   <body>
     <main class="main">
-      <header class="header-nav">
-        <!-- This is the navigation at the top of the site -->
-        <nav class="nav">
-          <div class="brand-name">
-            <ion-icon name="book" class="icon-book"></ion-icon>
-            <span>Deepcrate </span>
-          </div>
-          <ul class="nav-links">
-            <li class="nav-link"><a href="#"> The Process</a></li>
-            <li class="nav-link"><a href="#"> Subscriptions</a></li>
-            <li class="nav-link">
-              <a class="nav-cta" href="#"> Start Reading</a>
-            </li>
-          </ul>
-        </nav>
-      </header>
-      <section class="section-header">
-        <div class="heading">
-          <div class="margin--bottom-sm">
-            <h1 class="heading-primary">They are classics for a reason</h1>
-            <p class="subheading">
-              for classic fiction lovers all around the globe
+      <header class="header">
+        <header class="header-nav">
+          <!-- This is the navigation at the top of the site -->
+          <nav class="nav">
+            <div class="brand-name">
+              <ion-icon name="book" class="icon-book"></ion-icon>
+              <span>Deepcrate </span>
+            </div>
+            <ul class="nav-links">
+              <li class="nav-link">
+                <button class="nav-btn nav--bar-1">The Process</button>
+              </li>
+              <li class="nav-link">
+                <button class="nav-btn nav--bar-2">Subscriptions</button>
+              </li>
+              <li class="nav-link">
+                <button class="nav-btn nav-cta nav--bar-3">
+                  Start Reading
+                </button>
+              </li>
+            </ul>
+          </nav>
+        </header>
+        <section class="section-header">
+          <div class="heading">
+            <div class="margin--bottom-sm">
+              <h1 class="heading-primary">They are classics for a reason</h1>
+              <p class="subheading">
+                for classic fiction lovers all around the globe
+              </p>
+            </div>
+            <p class="heading-p">
+              A box containing three beloved classic fiction books
+              <span class="underline">delivered</span>
+              every month directly to you.
             </p>
+            <a class="heading-btn" href="#">Sign up now</a>
           </div>
-          <p class="heading-p">
-            A box containing three beloved classic fiction books
-            <span class="underline">delivered</span>
-            every month directly to you.
-          </p>
-          <a class="heading-btn" href="#">Sign up now</a>
-        </div>
-      </section>
-
+        </section>
+      </header>
       <!-- This is the section that is going to show the steps of the DeepCrate process  -->
-      <section class="container section-step">
+      <section class="container section-step" id="section-1">
         <h2 class="heading-secondary margin--bottom-md">
           Classics Delivered to You
         </h2>
@@ -108,7 +117,7 @@
         </div>
       </section>
       <!-- This is the section that is going to show the subscription plans -->
-      <section class="section-plan margin--bottom-md">
+      <section class="section-plan margin--bottom-md" id="section-2">
         <div class="container">
           <h2 class="heading-secondary plan-heading">Select your plan</h2>
 
@@ -199,7 +208,7 @@
         </div>
       </section>
       <!-- This is the section that is going to allow the user to fill in their data to sign up for the subscription service -->
-      <section class="section-form margin--bottom-md">
+      <section class="section-form margin--bottom-md" id="section-3">
         <div class="container">
           <h3 class="form-heading">Start getting the classics</h3>
           <form class="form" action="#">
