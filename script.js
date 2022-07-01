@@ -52,7 +52,7 @@ navBtn.forEach(function (value) {
 // Sticky Nav
 window.addEventListener("scroll", function () {
   const viewport_width = window.innerWidth;
-  // want to stop once we reach mobile version
+  // want to stop once we reach mobile version 800px
   if (viewport_width > 800) {
     const nav = document.querySelector(".nav");
     nav.classList.toggle("sticky", window.scrollY > 0);
