@@ -91,7 +91,7 @@ body {
 }
 .nav span {
   color: #d9480f;
-  font-weight: 500;
+  font-weight: 600;
   font-size: 2rem;
 }
 
@@ -126,7 +126,7 @@ body {
 
 .nav-btn {
   font-size: 2rem;
-  font-weight: 400;
+  font-weight: 500;
   color: #555;
   border: none;
   background-color: #fff;
@@ -134,7 +134,7 @@ body {
 }
 
 .nav-cta {
-  font-weight: 600;
+  font-weight: 700;
 }
 
 .brand-name {
